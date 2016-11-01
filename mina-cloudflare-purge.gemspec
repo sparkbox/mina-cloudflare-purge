@@ -1,6 +1,8 @@
+require './lib/mina_cloudflare_purge/version'
+
 Gem::Specification.new do |s|
   s.name = 'mina-cloudflare-purge'
-  s.version = '0.0.0'
+  s.version = MinaCloudflarePurge.version
   s.author = 'Mike Yockey'
   s.email = 'mike@heysparkbox.com'
   s.homepage = 'https://github.com/sparkbox/mina-cloudflare-purge'
