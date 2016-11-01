@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    mina-cloudflare-purge (0.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.9.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mina-cloudflare-purge!
+  minitest (>= 5.9.1)
+
+BUNDLED WITH
+   1.13.2
