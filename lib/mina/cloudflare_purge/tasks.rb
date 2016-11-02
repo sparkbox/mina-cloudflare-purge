@@ -2,6 +2,7 @@ namespace :cloudflare do
   namespace :purge do
     desc 'Remove ALL files from CloudFlare\'s cache'
     task :all_files => :environment do
+      puts 'Purging Cloudflare files'
       cf = CloudFlare.new(
         auth_email: fetch(:cloudflare_auth_email),
         auth_key: fetch(:cloudflare_auth_key)
