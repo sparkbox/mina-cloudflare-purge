@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split($/)
   s.summary = 'Purges all Cloudflare files during deployments'
 
-  s.add_development_dependency 'minitest', '>= 5.9.1'
+  s.add_development_dependency 'minitest', '~> 5.9', '>= 5.9.1'
 end
